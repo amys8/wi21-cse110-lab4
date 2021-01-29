@@ -35,4 +35,6 @@
 16. == converts the values to the same type and then checks if they are equal while === strictly checks if the two are of both equal value and equal type.
 17. "How are you?" gets printed. Looking at the first if statement, 2 == true returns false, so we move to the else if statement, where 2 is boolean converted to true, so we run the code in that block.
 18. NO
-19. 
+19. newArr will be \[6,8,10\]. For i=0, we call doSomething(1, function()), which returns function(1+2). So function(3) returns 3 times 2 which is 6. Then we add 6 to newArr. For i=1, we call doSomething(2, function()), which returns function(2+2). So function(4) returns 4 times 2 which is 8. Then we add 8 to newArr. For i=2, we call doSomething(3, function()), which returns function(3+2). So function(5) returns 5 times 2 which is 10. So we add 10 to newArr. Then i=4 and the for loop ends, and so we return newArr.
+20. NO
+21. 
