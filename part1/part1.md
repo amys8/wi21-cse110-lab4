@@ -11,5 +11,28 @@
 11. The value of variable finalPrice will be written to the console because finalPrice is declared with "let" in the same code block as line 11.
 12. The function will return an error, at line 7, because we cannot reassign a value to a "const" variable.
 13. 
-    - A. alert(student.name);
-    - B. alert(student\['Grad Year'\]);
+    - A. student.name
+    - B. student\['Grad Year'\]
+    - C. student.greeting()
+    - D. student\['Favorite Teacher'\].name
+    - E. student.courseLoad\[0\]
+14.
+    - A. \'32\' because the values are converted to strings and then concatenated.
+    - B. 1 because the values are converted to numbers and subtracted.
+    - C. 3 because the values are converted to numbers, with null becoming 0, and then added.
+    - D. \'3null\' because the values are converted to strings and then concatenated.
+    - E. 4 because the values are converted to numbers, with true becoming 1, and then added.
+    - F. 0 because the values are converted to numbers, with false becoming 0 and null becoming 0, and then added.
+    - G. '3undefined' because the values are converted to strings and then concatenated.
+    - H. NaN because the values are converted to 
+15. 
+    - A. true because 2 is converted to a number and 2 is greater than 1.
+    - B. false because 
+    - C. true because 2 is converted to a number and 2 equals 2.
+    - D. false because 2 and '2' are not of the same type.
+    - E. false because true is converted to a number and 1 does not equal 2.
+    - F. true because Boolean(2) returns true, so they are of equal value and type.
+16. == converts the values to the same type and then checks if they are equal while === strictly checks if the two are of both equal value and equal type.
+17. "How are you?" gets printed. Looking at the first if statement, 2 == true returns false, so we move to the else if statement, where 2 is boolean converted to true, so we run the code in that block.
+18. NO
+19. 
