@@ -1,14 +1,14 @@
-1. The value of variable i will be written to the console because it is declared with "var" and so is global-scoped.
-2. The value of variable discountedPrice will be written to the console because it is declared with "var" and so is global-scoped.
-3. The value of variable finalPrice will be written to the console because it is declared with "var" and so is global-scoped.
+1. The value of variable i will be written to the console because it is declared with "var" and so is global-scoped. Using the args in q4, i will be 3.
+2. The value of variable discountedPrice will be written to the console because it is declared with "var" and so is global-scoped. Using the args in q4, i will be 150.
+3. The value of variable finalPrice will be written to the console because it is declared with "var" and so is global-scoped. Using the args in q4, i will be 150.
 4. The function will return the discounted array containing \[50,100,150\]. There are no errors with variable scope as all variables are declared with "var" and thus are global-scoped. The for loop runs and adds all the discounted prices to the discounted array, and the function returns the discounted array.  
-5. An error will occur because the i variable is declared with "let" in the for loop and is only visible in that block of code.
-6. An error will occur because the discountedPrice variable is declared with "let" in the for loop and is only visible in that block of code.
-7. The value of variable finalPrice will be written to the console because finalPrice is declared with "let" in the same code block as line 11.
+5. An error will occur because the i variable is declared with "let" in the for loop and is only accessible within the scope of the for loop.
+6. An error will occur because the discountedPrice variable is declared with "let" in the for loop and is only accessible within the scope of the for loop.
+7. The value of variable finalPrice will be written to the console because finalPrice is declared with "let" in the same code block as line 11. Using the args in q8, finalPrice will be 150.
 8. The function will return an error, at line 11, because the i variable is only accessible within the scope of the for loop.
-9. An error will occur because the i variable is declared with "let" in the for loop and is only visible in that block of code.
-10. An error will occur because the discountedPrice variable is declared with "const" in the for loop and is only visible in that block of code.
-11. The value of variable finalPrice will be written to the console because finalPrice is declared with "let" in the same code block as line 11.
+9. An error will occur because the i variable is declared with "let" in the for loop and is only accessible within the scope of the for loop.
+10. An error will occur because the discountedPrice variable is declared with "const" in the for loop and is only accessible within the scope of the for loop.
+11. The value of variable finalPrice will be written to the console because finalPrice is declared with "const" in the same code block as line 11. Using the args in q12 and assuming each finalPrice assignment is successful, finalPrice will be 150.
 12. The function will return an error, at line 7, because we cannot reassign a value to a "const" variable.
 13. 
     - A. student.name
@@ -17,19 +17,19 @@
     - D. student\['Favorite Teacher'\].name
     - E. student.courseLoad\[0\]
 14.
-    - A. \'32\' because the values are converted to strings and then concatenated.
-    - B. 1 because the values are converted to numbers and subtracted.
+    - A. \'32\' because the values are converted to strings '3' and '2' and then concatenated.
+    - B. 1 because the values are converted to numbers 3 and 2 and then subtracted.
     - C. 3 because the values are converted to numbers, with null becoming 0, and then added.
-    - D. \'3null\' because the values are converted to strings and then concatenated.
+    - D. \'3null\' because the values are converted to strings '3' and 'null' and then concatenated.
     - E. 4 because the values are converted to numbers, with true becoming 1, and then added.
     - F. 0 because the values are converted to numbers, with false becoming 0 and null becoming 0, and then added.
-    - G. '3undefined' because the values are converted to strings and then concatenated.
+    - G. '3undefined' because the values are converted to strings '3' and 'undefined' and then concatenated.
     - H. NaN because the values are converted to numbers, with undefined becoming NaN, and so subtracting the two returns NaN.
 15. 
     - A. true because 2 is converted to a number and 2 is greater than 1.
     - B. false because the strings are compared in lexicographic order and the first character of '2' is not less than the first character of '12'.
     - C. true because 2 is converted to a number and 2 equals 2.
-    - D. false because 2 and '2' are not of the same type.
+    - D. false because 2, a number, and '2', a string, are not of the same type.
     - E. false because true is converted to a number and 1 does not equal 2.
     - F. true because Boolean(2) returns true, so they are of equal value and type.
 16. == converts the values to the same type and then checks if they are equal while === strictly checks if the two are of both equal value and equal type.
