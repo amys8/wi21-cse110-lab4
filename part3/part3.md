@@ -7,7 +7,7 @@ The bug was that num1 and num2 were both strings, so result was being evaluated 
 How would you fix it?
 
 To fix it, I changed the initalization of *result* in calculateSum() to be
-```let result = parseInt(num1) + parseInt(num2)``` 
+```let result = parseInt(num1) + parseInt(num2)``` so that result would be evaluated as a number.
 
 ### DevTools - Network Tab
 
