@@ -1,3 +1,5 @@
+### DevTools - Debugging
+
 What was the bug?
 
 The bug was that num1 and num2 were both strings, so result was being evaluated as a string rather than a number. 
@@ -6,6 +8,8 @@ How would you fix it?
 
 To fix it, I changed the initalization of *result* in calculateSum() to be
 ```let result = parseInt(num1) + parseInt(num2)``` 
+
+### DevTools - Network Tab
 
 1. citylots.json
 2. part2.js
